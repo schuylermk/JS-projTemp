@@ -1,7 +1,6 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prompt": "^1.0.0"
+    "browser-sync": "^2.11.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "prompt": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
     "bower-files": "^3.11.3",
@@ -18,6 +21,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
     "gulp-jshint": "^2.0.0",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
@@ -25,5 +29,14 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schuylermk/JS-projTemp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schuylermk/JS-projTemp/issues"
+  },
+  "homepage": "https://github.com/schuylermk/JS-projTemp#readme",
+  "description": ""
 }
